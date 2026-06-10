@@ -13,9 +13,9 @@ const rise = {
 }
 
 const stats = [
-  { value: '188',  label: '免费旋转' },
-  { value: '64',   label: '场比赛'   },
-  { value: '24H',  label: '快速提款' },
+  { value: '$300', label: '充值$100得'   },
+  { value: '20%',  label: '每日·$288'   },
+  { value: '$5K',  label: '每周通行证'   },
 ]
 
 export default function Hero() {
@@ -58,12 +58,12 @@ export default function Hero() {
           >
             <span className="text-gold-outline">世界杯 2026</span>
             <br />
-            <span className="text-gold-3d">获得 188 免费旋转</span>
+            <span className="text-gold-3d">35,306 已参与</span>
           </motion.h1>
 
           {/* Sub */}
           <motion.p variants={rise} className="font-body text-body-premium text-sm md:text-base leading-relaxed mb-5 md:max-w-md">
-            立即注册，获得 188 次免费旋转 — 全部 64 场比赛，全程覆盖
+            赢取高达 SGD 100,000 — 立即参与黄金靴争霸赛
           </motion.p>
 
           {/* CTA */}

@@ -13,9 +13,9 @@ const rise = {
 }
 
 const stats = [
-  { value: '$300', label: '充值$100得'   },
-  { value: '20%',  label: '每日·$288'   },
-  { value: '$5K',  label: '每周通行证'   },
+  { value: '$300', label: '充值$100·获$300礼包'  },
+  { value: '20%',  label: '每日奖励·最高$288'    },
+  { value: '$5K',  label: '每周通行证·赢$5K'     },
 ]
 
 export default function Hero() {
@@ -51,19 +51,24 @@ export default function Hero() {
         >
 
           {/* Headline */}
-          <motion.h1
-            variants={rise}
-            className="font-display leading-[0.92] tracking-wide mb-3"
-            style={{ fontSize: 'clamp(1.8rem, 7.8vw, 3.8rem)' }}
-          >
-            <span className="text-gold-outline">世界杯 2026</span>
-            <br />
-            <span className="text-gold-3d">35,306 已参与</span>
+          <motion.h1 variants={rise} className="font-display tracking-wide mb-3">
+            <span
+              className="text-gold-outline block leading-snug"
+              style={{ fontSize: 'clamp(1rem, 4.5vw, 2.2rem)' }}
+            >FIFA 世界杯 2026</span>
+            <span
+              className="text-white/55 block uppercase"
+              style={{ fontSize: 'clamp(0.65rem, 2.8vw, 1.2rem)', letterSpacing: '0.22em', marginTop: '0.15em' }}
+            >赢取高达</span>
+            <span
+              className="text-gold-3d block"
+              style={{ fontSize: 'clamp(2.6rem, 11vw, 5.5rem)', lineHeight: 0.88 }}
+            >SGD 100,000</span>
           </motion.h1>
 
           {/* Sub */}
           <motion.p variants={rise} className="font-body text-body-premium text-sm md:text-base leading-relaxed mb-5 md:max-w-md">
-            赢取高达 SGD 100,000 — 立即参与黄金靴争霸赛
+            35,306 名玩家已加入 — 黄金靴争霸赛等你来战
           </motion.p>
 
           {/* CTA */}

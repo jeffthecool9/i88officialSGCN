@@ -13,9 +13,9 @@ const rise = {
 }
 
 const stats = [
-  { value: '$300', label: '充值$100·获$300礼包'  },
-  { value: '20%',  label: '每日奖励·最高$288'    },
-  { value: '$5K',  label: '每周通行证·赢$5K'     },
+  { value: '3X',   label: '充值$100 · 获$300礼包' },
+  { value: '20%',  label: '每日奖励 · 最高$288'   },
+  { value: '$5K',  label: '每周通行证奖池'         },
 ]
 
 export default function Hero() {
@@ -53,13 +53,13 @@ export default function Hero() {
           {/* Headline */}
           <motion.h1 variants={rise} className="font-display tracking-wide mb-3">
             <span
-              className="text-gold-outline block leading-snug"
-              style={{ fontSize: 'clamp(1rem, 4.5vw, 2.2rem)' }}
+              className="text-gold-outline block leading-tight"
+              style={{ fontSize: 'clamp(1.5rem, 6.5vw, 3.2rem)', letterSpacing: '0.06em' }}
             >FIFA 世界杯 2026</span>
             <span
-              className="text-white/55 block uppercase"
-              style={{ fontSize: 'clamp(0.65rem, 2.8vw, 1.2rem)', letterSpacing: '0.22em', marginTop: '0.15em' }}
-            >赢取高达</span>
+              className="block text-white/75 uppercase"
+              style={{ fontSize: 'clamp(0.7rem, 3vw, 1.25rem)', letterSpacing: '0.28em', margin: '0.25em 0 0.1em' }}
+            >— 赢取高达 —</span>
             <span
               className="text-gold-3d block"
               style={{ fontSize: 'clamp(2.6rem, 11vw, 5.5rem)', lineHeight: 0.88 }}

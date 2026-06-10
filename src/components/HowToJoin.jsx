@@ -48,8 +48,8 @@ const steps = [
   },
   {
     num: '03',
-    label: '获得 188 FS',
-    detail: '存款后确认到账',
+    label: '领取您的奖励',
+    detail: '赢取高达 SGD 100,000',
     bg:     'linear-gradient(150deg, #4338CA 0%, #6366F1 45%, #818CF8 100%)',
     ledge:  'rgba(67,56,202,0.85)',
     badge:  'bg-white/20 border-white/30 text-white',

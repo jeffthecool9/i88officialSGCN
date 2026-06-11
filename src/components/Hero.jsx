@@ -75,7 +75,7 @@ export default function Hero() {
           <motion.div variants={rise} className="flex md:justify-start justify-center mb-5">
             <PremiumButton
               size="lg"
-              onClick={() => trackEvent('hero_cta_click', { section: 'hero' })}
+              onClick={() => { trackEvent('hero_cta_click', { section: 'hero' }); window.open('https://www.palacehub8.com/vbd4Napg', '_blank') }}
               className="w-full sm:w-auto"
             >
               立即加入

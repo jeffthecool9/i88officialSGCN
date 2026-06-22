@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { trackEvent } from '../utils/tracking'
+import { trackLead } from '../utils/tracking'
 import PremiumButton from './PremiumButton'
 
 export default function StickyCTA() {
@@ -32,7 +32,7 @@ export default function StickyCTA() {
         {/* Premium CTA */}
         <PremiumButton
           size="sm"
-          onClick={() => { trackEvent('sticky_cta_click', { section: 'sticky_bar' }); window.open('https://www.palacehub8.com/ypJAwuqq', '_blank') }}
+          onClick={() => { trackLead('sticky'); window.open('https://www.palacehub8.com/ypJAwuqq', '_blank') }}
           wrapperClassName="flex-1 sm:flex-none"
           className="w-full"
         >
